@@ -1,0 +1,5 @@
+{
+  "name": "video",
+  "private": true,
+  "main": "/index.js"
+}
