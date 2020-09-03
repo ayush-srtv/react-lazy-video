@@ -48,7 +48,13 @@ export default function App() {
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
       </p>
-      <Video src="https://www.w3schools.com/tags/movie.ogg" controls />
+      <Video
+        src={require("./sample/react.mp4")}
+        height="360"
+        width="640"
+        controls
+        loop
+      />
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
