@@ -54,6 +54,7 @@ export default function App() {
         width="640"
         controls
         loop
+        autoPlay
       />
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting

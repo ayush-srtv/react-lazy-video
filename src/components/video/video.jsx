@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 function Video({
   auto = true,
-  intersectionConfig = { threshold: 1 },
+  intersectionConfig = { threshold: 0.25 },
   ...props
 }) {
   const [ref, setRef] = useState();
